@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-05-30T05:47:57.684Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36" etag="H_T1lX3O-otjfI-dIBZM" version="18.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-30T06:03:35.134Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36" etag="PM2nchgXj4jPtrD5qUKR" version="18.1.1" type="github">
   <diagram id="HtmLvD16SdKFXFx-3Xre" name="Page-1">
-    <mxGraphModel dx="2031" dy="2429" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1422" dy="2051" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -433,6 +433,9 @@
         <mxCell id="d3IuWW9zd6bZAERhAnUF-149" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="d3IuWW9zd6bZAERhAnUF-145" target="d3IuWW9zd6bZAERhAnUF-148">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="d3IuWW9zd6bZAERhAnUF-179" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="d3IuWW9zd6bZAERhAnUF-145" target="d3IuWW9zd6bZAERhAnUF-178">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="d3IuWW9zd6bZAERhAnUF-145" value="createEle" style="whiteSpace=wrap;html=1;strokeColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="900" y="1780" width="120" height="60" as="geometry" />
         </mxCell>
@@ -496,7 +499,7 @@
         <mxCell id="d3IuWW9zd6bZAERhAnUF-168" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="d3IuWW9zd6bZAERhAnUF-164" target="d3IuWW9zd6bZAERhAnUF-167">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="d3IuWW9zd6bZAERhAnUF-164" value="调用oldVNode的destroy的钩子" style="whiteSpace=wrap;html=1;strokeColor=#000000;" vertex="1" parent="1">
+        <mxCell id="d3IuWW9zd6bZAERhAnUF-164" value="调用oldVNode的destroy的钩子" style="whiteSpace=wrap;html=1;strokeColor=#009900;" vertex="1" parent="1">
           <mxGeometry x="915" y="2390" width="90" height="50" as="geometry" />
         </mxCell>
         <mxCell id="d3IuWW9zd6bZAERhAnUF-166" value="有" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
@@ -505,7 +508,7 @@
         <mxCell id="d3IuWW9zd6bZAERhAnUF-177" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="d3IuWW9zd6bZAERhAnUF-167" target="d3IuWW9zd6bZAERhAnUF-176">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="d3IuWW9zd6bZAERhAnUF-167" value="调用新节点vnode的inserted钩子" style="whiteSpace=wrap;html=1;strokeColor=#000000;" vertex="1" parent="1">
+        <mxCell id="d3IuWW9zd6bZAERhAnUF-167" value="调用新节点vnode的inserted钩子" style="whiteSpace=wrap;html=1;strokeColor=#009900;" vertex="1" parent="1">
           <mxGeometry x="900" y="2515" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="d3IuWW9zd6bZAERhAnUF-170" value="有" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
@@ -526,6 +529,58 @@
         </mxCell>
         <mxCell id="d3IuWW9zd6bZAERhAnUF-176" value="返回VNode的dom" style="ellipse;whiteSpace=wrap;html=1;strokeColor=#FFB366;" vertex="1" parent="1">
           <mxGeometry x="900" y="2610" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="d3IuWW9zd6bZAERhAnUF-181" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="d3IuWW9zd6bZAERhAnUF-178" target="d3IuWW9zd6bZAERhAnUF-180">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="d3IuWW9zd6bZAERhAnUF-178" value="createEle" style="ellipse;whiteSpace=wrap;html=1;strokeColor=#FF6666;" vertex="1" parent="1">
+          <mxGeometry x="1375" y="1780" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="d3IuWW9zd6bZAERhAnUF-183" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="d3IuWW9zd6bZAERhAnUF-180" target="d3IuWW9zd6bZAERhAnUF-182">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="d3IuWW9zd6bZAERhAnUF-192" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="d3IuWW9zd6bZAERhAnUF-180" target="d3IuWW9zd6bZAERhAnUF-191">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1540" y="1930" />
+              <mxPoint x="1540" y="2250" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d3IuWW9zd6bZAERhAnUF-180" value="尝试创建component" style="rhombus;whiteSpace=wrap;html=1;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="1395" y="1890" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="d3IuWW9zd6bZAERhAnUF-190" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="d3IuWW9zd6bZAERhAnUF-182" target="d3IuWW9zd6bZAERhAnUF-189">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="d3IuWW9zd6bZAERhAnUF-182" value="创建真实dom，插入到文档中" style="whiteSpace=wrap;html=1;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="1375" y="2020" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="d3IuWW9zd6bZAERhAnUF-184" value="不为空" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1475" y="1890" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="d3IuWW9zd6bZAERhAnUF-188" value="为空" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1430" y="1980" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="d3IuWW9zd6bZAERhAnUF-194" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="d3IuWW9zd6bZAERhAnUF-189" target="d3IuWW9zd6bZAERhAnUF-191">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="d3IuWW9zd6bZAERhAnUF-189" value="调用create钩子，并将vnode，push到insertedVnodeQueue" style="whiteSpace=wrap;html=1;strokeColor=#009900;" vertex="1" parent="1">
+          <mxGeometry x="1375" y="2130" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="d3IuWW9zd6bZAERhAnUF-195" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="d3IuWW9zd6bZAERhAnUF-191" target="d3IuWW9zd6bZAERhAnUF-145">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1320" y="2250" />
+              <mxPoint x="1320" y="1825" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d3IuWW9zd6bZAERhAnUF-191" value="返回vnode.elm" style="ellipse;whiteSpace=wrap;html=1;strokeColor=#FFB366;" vertex="1" parent="1">
+          <mxGeometry x="1390" y="2220" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="d3IuWW9zd6bZAERhAnUF-193" value="为空" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1540" y="2070" width="40" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
