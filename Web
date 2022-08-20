@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-08-20T03:25:18.024Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="KBAc_zAPzpx5T7BvMIyH" version="20.2.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-20T04:03:01.645Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="WoEu21dDzl9KDW9si0ca" version="20.2.3" type="github">
   <diagram id="HtmLvD16SdKFXFx-3Xre" name="Page-1">
-    <mxGraphModel dx="2250" dy="4387" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1999" dy="4232" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1498,8 +1498,8 @@
         <mxCell id="NtoQIPRSXF6tcg2crKlw-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="1" source="NtoQIPRSXF6tcg2crKlw-14" target="NtoQIPRSXF6tcg2crKlw-12">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="NtoQIPRSXF6tcg2crKlw-14" value="&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;调用render会渲染vnode，访问其数据，从而触发对象属性的getter&lt;/span&gt;" style="whiteSpace=wrap;html=1;fontColor=#FFD966;" vertex="1" parent="1">
-          <mxGeometry x="507.5" y="-1970" width="120" height="60" as="geometry" />
+        <mxCell id="NtoQIPRSXF6tcg2crKlw-14" value="&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;调用render函数会渲染vnode，访问其数据，从而触发对象属性的getter&lt;/span&gt;" style="whiteSpace=wrap;html=1;fontColor=#FFD966;" vertex="1" parent="1">
+          <mxGeometry x="507.5" y="-1975" width="152.5" height="70" as="geometry" />
         </mxCell>
         <mxCell id="NtoQIPRSXF6tcg2crKlw-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="1" source="NtoQIPRSXF6tcg2crKlw-17" target="NtoQIPRSXF6tcg2crKlw-20">
           <mxGeometry relative="1" as="geometry" />
@@ -1739,6 +1739,21 @@
               <mxPoint x="875" y="800" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="NtoQIPRSXF6tcg2crKlw-97" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;fontColor=#000000;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="840" y="70" as="sourcePoint" />
+            <mxPoint x="890" y="20" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NtoQIPRSXF6tcg2crKlw-99" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;fontColor=#000000;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="d3IuWW9zd6bZAERhAnUF-39">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="610" y="-50" as="sourcePoint" />
+            <mxPoint x="890" y="20" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NtoQIPRSXF6tcg2crKlw-100" value="render是一个字符串 &quot;function(xxx)&quot;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="470" y="-93.25" width="210" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
