@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-04T07:26:28.494Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="ioniOzc-R-rK9RXqpRdy" version="22.1.16" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-16T09:42:58.025Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="1PoPe6MeX-46Q1cuiOGr" version="22.1.16" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="2261" dy="2035" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -111,17 +111,35 @@
         <mxCell id="F4Q94Z34g-KlaFZqOqd_-24" value="否" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="238.75" y="500" width="40" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="XS-8N8jXO1mrCOZgN4r2-0" value="数据填报-导入 部分单元格不能导入数据" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="XS-8N8jXO1mrCOZgN4r2-0" value="数据填报-导入 部分单元格不能导入数据" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="500" y="340" width="230" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="XS-8N8jXO1mrCOZgN4r2-1" value="填报权限" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="XS-8N8jXO1mrCOZgN4r2-1" value="填报权限" style="rounded=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="440" y="390" width="110" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="XS-8N8jXO1mrCOZgN4r2-2" value="只读" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="XS-8N8jXO1mrCOZgN4r2-2" value="只读" style="rounded=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="570" y="390" width="110" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="XS-8N8jXO1mrCOZgN4r2-3" value="是否有配置计算公式" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="XS-8N8jXO1mrCOZgN4r2-3" value="是否有配置计算公式" style="rounded=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="700" y="390" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="UDy3fmCdEGeJ6sIreqhl-0" value="配置脱敏" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-640" y="10" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UDy3fmCdEGeJ6sIreqhl-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="UDy3fmCdEGeJ6sIreqhl-1" target="UDy3fmCdEGeJ6sIreqhl-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UDy3fmCdEGeJ6sIreqhl-1" value="系统管理-脱敏配置" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-670" y="50" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="UDy3fmCdEGeJ6sIreqhl-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="UDy3fmCdEGeJ6sIreqhl-2" target="UDy3fmCdEGeJ6sIreqhl-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UDy3fmCdEGeJ6sIreqhl-2" value="resource_reg中添加TEMPLATE_MASK&lt;span style=&quot;background-color: initial;&quot;&gt;配置&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-670" y="120" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="UDy3fmCdEGeJ6sIreqhl-4" value="系统管理-角色资源配置" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-670" y="190" width="120" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
